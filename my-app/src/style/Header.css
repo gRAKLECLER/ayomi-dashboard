@@ -1,0 +1,49 @@
+.Header{
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+  align-items: center;
+  height: 100vh;
+  background-color: #3B79B1;
+  color: #F9F9F9;
+}
+
+.Header__title{
+  font-weight: 200;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.Header__nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  height: 50%;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.Header__links{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}
+
+.Header__links:hover{
+  background-color: #F29400;
+}
+
+.Header__link{
+  font-weight: 200;
+  font-size: 12px;
+}
+
+
+.logo{
+  width: 20%;
+  margin-bottom: 10px;
+}

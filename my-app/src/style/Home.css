@@ -1,0 +1,53 @@
+.Home{
+  display: flex;
+}
+
+.Home__left{
+  margin-left: 59px;
+  margin-top: 38px;
+}
+
+.Home__Title{
+  width: 65%;
+}
+
+.Home__mainTitle{
+  font-size: 48px;
+}
+
+.Home__underTitle{
+  font-size: 36px;
+  font-weight: 800;
+  color: #3B79B1;
+}
+
+.Home__actuality{
+  width: 420px;
+  height: 230px;
+  background-color: #F9F9F9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-top: 48px;
+}
+
+.Home__document{
+  margin-top: 48px;
+}
+
+.Home__titleDoc{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.Home__docSection{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-top: 24px;
+}
+
+.Home__files{
+  margin-left: 15px;
+}
