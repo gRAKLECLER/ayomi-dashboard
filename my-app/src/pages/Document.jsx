@@ -28,7 +28,7 @@ export default class Calendar extends React.Component {
                 <input className="Document__input" type="text"/>
               </div>
               <div className="Document__create">
-                <p className="Document__createText">Create new file</p>
+                <p className="Document__createText">+ Create new file</p>
               </div>
             </div>
             <div className="Document__parameters">

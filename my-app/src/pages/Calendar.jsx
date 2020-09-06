@@ -24,6 +24,7 @@ export default class Calendar extends React.Component {
             <h4 className="Calendar__eventMaindate">11 juin 2020</h4>
           </div>
           <div className="Calendar__Cards">
+            <p className="newEvent">+ add new events</p>
             <CardEvent/>
           </div>
         </section>

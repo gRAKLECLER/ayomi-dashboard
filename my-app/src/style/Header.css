@@ -48,6 +48,15 @@ a{
   font-size: 12px;
 }
 
+.newEvent{
+  margin-top: 10px;
+  color: #F29400;
+  cursor: pointer;
+}
+
+.newEvent:hover{
+  text-decoration: underline;
+}
 
 .logo{
   width: 20%;
@@ -61,6 +70,7 @@ a{
   height: 70px;
   border-radius: 50%;
   background-color: #F29400;
+  cursor: pointer;
 }
 
 .Header__picture{

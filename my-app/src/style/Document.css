@@ -74,8 +74,11 @@
 
 .Document__createText{
   color: #F29400;
-  text-decoration: underline;
   cursor: pointer;
+}
+
+.Document__createText:hover{
+  text-decoration: underline;
 }
 
 .Document__parameters{
