@@ -1,5 +1,6 @@
 .Home{
   display: flex;
+  width: 95vw;
 }
 
 .Home__left{
@@ -19,6 +20,11 @@
   font-size: 36px;
   font-weight: 800;
   color: #3B79B1;
+}
+
+.Home__H3{
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .Home__actuality{
@@ -50,4 +56,59 @@
 
 .Home__files{
   margin-left: 15px;
+}
+
+.Home__profile{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  height: 153px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-top: 68px;
+}
+
+.Home__pic{
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.Home__profileText{
+  width: 65%;
+}
+
+.Home__text{
+  font-size: 18px;
+}
+
+.Home__eventText{
+  margin-top: 48px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Home__eventTitle{
+  width: 300px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.Home__numEvent{
+  background-color: #3B79B1;
+  color: #F9F9F9;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.Home__more{
+  margin-top: 150px;
 }

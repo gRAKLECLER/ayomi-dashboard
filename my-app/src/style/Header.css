@@ -12,6 +12,7 @@
   font-weight: 200;
   font-size: 24px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .Header__nav{

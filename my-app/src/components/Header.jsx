@@ -5,7 +5,6 @@ import calendarLogo from '../assets/calendar.svg'
 import documentLogo from '../assets/document.svg'
 import chatLogo from '../assets/chat.svg'
 
-
 export default class Header extends React.Component {
   render(){
     return(
