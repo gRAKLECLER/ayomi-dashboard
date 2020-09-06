@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import BaseChat from '../components/BaseChat'
 import '../style/Chat.css'
 import BaseInviteCard from '../components/BaseInveCard'
+import Add from '../assets/add.svg'
 
 
 export default class Chat extends React.Component {
@@ -19,8 +20,11 @@ export default class Chat extends React.Component {
         </section>
         <section className="Chat__right">
           <div className="Chat__inviteTitle">
-            <h4 className="Chat__inviteMaintitle">INVITE DES PARTICIPANTS</h4>
-            <h5 className="Chat__inviteSecondtitle">Connectés</h5>
+            <div>
+              <h4 className="Chat__inviteMaintitle">INVITE DES PARTICIPANTS</h4>
+              <h5 className="Chat__inviteSecondtitle">Connectés</h5>
+            </div>
+              <img className="Chat__addInvite" src={Add} alt=""/>
           </div>
           <BaseInviteCard/>
         </section>

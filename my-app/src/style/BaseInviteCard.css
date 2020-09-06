@@ -22,3 +22,13 @@
   align-items: center;
   justify-content: space-evenly;
 }
+
+.BaseInviteCard__name{
+  font-weight: 700;
+}
+
+.BaseInviteCard__job{
+  margin-top: 10px;
+  font-weight: 300;
+  color: #F29400;
+}

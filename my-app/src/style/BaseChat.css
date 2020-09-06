@@ -1,6 +1,6 @@
 .BaseChat{
   position: relative;
-  width: 50vw;
+  width: 80vw;
   height: 70vh;
   margin-top: 128px;
   margin-left: 66px;
@@ -8,7 +8,7 @@
 
 .BaseChat__sendMessage{
   position: absolute;
-  width: 634px;
+  width: 700px;
   height: 538px;
   bottom: 0px;
 }
@@ -27,7 +27,7 @@
 
 .BaseChat__container{
   background-color: #EFEFEF ;
-  width: 500px;
+  width: 640px;
   height: 500px;
   margin-bottom: 20px;
   padding: 10px;
@@ -35,7 +35,7 @@
 
 .BaseChat__input{
   border: none;
-  width: 65%;
+  width: 80%;
   padding: 10px;
   border-radius: 10px;
   margin-right: 20px;
@@ -56,7 +56,7 @@
 
 
 .BaseChat__button:hover{
-  background-color: #F29400;
+  background-color: #3B79B1;
   color: #EFEFEF;
   cursor: pointer;
 }

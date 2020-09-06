@@ -1,9 +1,12 @@
 .Chat{
   display: flex;
+  width: 95vw;
 }
 
 .Chat__left{
   position: relative;
+  width: 40%;
+  margin-left: 40px;
 }
 
 .Chat__Title{
@@ -17,15 +20,24 @@
 }
 
 .Chat__right{
+  margin-top: 110px;
+  margin-left: 180px;
+  width: 30%;
   height: 80vh;
 }
 
 .Chat__inviteTitle{
-  margin-top: 110px;
-  margin-left: -120px;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
 }
 
 .Chat__inviteMaintitle{
   font-size: 16px;
   font-weight: 600;
+}
+
+.Chat__addInvite{
+  align-self: flex-start;
+  width: 8%;
 }

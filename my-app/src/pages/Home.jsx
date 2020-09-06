@@ -22,12 +22,12 @@ export default class Home extends React.Component {
             <h2 className="Home__underTitle">Hi, patrick welcome back</h2>
           </div>
           <div className="Home__actuality">
-            <h3 className="Home__H3">ACTUALITES</h3>
+            <h3 className="Home__H3 actuality">ACTUALITES</h3>
           </div>
           <div className="Home__document">
             <div className="Home__titleDoc">
-              <h3 className="Home__H3">DOCUMENTS</h3>
-              <img src={eye} alt="oeil"/>
+              <h3 className="Home__H3 document">DOCUMENTS</h3>
+              <img className="Home__eyeIcon" src={eye} alt="oeil"/>
             </div>
             <div className="Home__docSection">
               <img className="Home__files" src={doc} alt="document"/>
