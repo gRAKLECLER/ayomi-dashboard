@@ -13,18 +13,18 @@
 }
 
 .Home__mainTitle{
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .Home__underTitle{
-  font-size: 36px;
-  font-weight: 800;
+  font-size: 32px;
+  font-weight: 600;
   color: #3B79B1;
 }
 
 .Home__H3{
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .Home__actuality{
@@ -81,7 +81,8 @@
 }
 
 .Home__text{
-  font-size: 18px;
+  margin-top: 10px;
+  font-size: 14px;
 }
 
 .Home__eventText{

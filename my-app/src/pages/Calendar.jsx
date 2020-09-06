@@ -3,6 +3,7 @@ import '../style/Calendar.css'
 
 import Header from '../components/Header'
 import BaseCalendar from '../components/BaseCalendar'
+import CardEvent from '../components/CardEvent'
 
 export default class Calendar extends React.Component {
   render() {
@@ -16,7 +17,16 @@ export default class Calendar extends React.Component {
           </div>
         <BaseCalendar/>
         </section>
-        <section className="Calendar__right"></section>
+        <section className="Calendar__right">
+          <div className="Calendar__eventTitle">
+            <h4 className="Calendar__eventMaintitle">EVENEMENTS A VENIR</h4>
+            <p>-</p>
+            <h4 className="Calendar__eventMaindate">11 juin 2020</h4>
+          </div>
+          <div className="Calendar__Cards">
+            <CardEvent/>
+          </div>
+        </section>
       </div>
     )
   }

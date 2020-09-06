@@ -31,7 +31,7 @@
   display: flex;
   justify-content: space-evenly;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
   width: 95%;
 }
 
@@ -50,6 +50,6 @@
 .numbers__number{
   padding: 20px;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 16px;
   text-align: center;
 }
