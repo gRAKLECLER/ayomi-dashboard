@@ -11,6 +11,27 @@ import Upcoming from '../components/Upcoming'
 
 
 export default class Home extends React.Component {
+
+  constructor(){
+    super()
+      this.state = {
+        show: true,
+        hidden: true
+    }
+  }
+
+  visible(){
+    this.setState({
+      show: !this.state.show
+    })
+  }
+
+  hide(){
+    this.setState({
+      hidden: !this.state.hidden
+    })
+  }
+
   render(){
     return(
       <div className="Home">
@@ -27,8 +48,10 @@ export default class Home extends React.Component {
           <div className="Home__document">
             <div className="Home__titleDoc">
               <h3 className="Home__H3 document">DOCUMENTS</h3>
-              <img className="Home__eyeIcon" src={eye} alt="oeil"/>
+              <img onClick={() => this.hide()} className="Home__eyeIcon" src={eye} alt="oeil"/>
             </div>
+            {
+              this.state.hidden ?
             <div className="Home__docSection">
               <img className="Home__files" src={doc} alt="document"/>
               <img className="Home__files" src={doc} alt="document"/>
@@ -40,6 +63,8 @@ export default class Home extends React.Component {
               <img className="Home__files" src={doc} alt="document"/>
               <img className="Home__files" src={doc} alt="document"/>
             </div>
+            :null
+            }
           </div>
         </section>
         <section className="Home__right">
@@ -56,13 +81,17 @@ export default class Home extends React.Component {
                 <h3 className="Home__H3">EVENEMENTS A VENIR</h3>
                 <span className="Home__numEvent">3</span>
               </div>
-              <img src={eye} alt="oeil"/>
+              <img onClick={() => this.visible()} className="eye" src={eye} alt="oeil"/>
             </div>
+            {
+              this.state.show ?
             <div className="Home__eventUp">
               <Upcoming/>
               <Upcoming/>
               <Upcoming/>
             </div>
+            :null
+            }
             <div className="Home__LastDiv">
               <img className="Home__more" src={more} alt="en savoir plus"/>
               <img src={chatIcon} alt="text message"/>

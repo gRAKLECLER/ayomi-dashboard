@@ -1,0 +1,90 @@
+.Document{
+  display: flex;
+}
+
+.Document__container{
+  display: flex;
+  width: 80vw;
+  flex-direction: column;
+  margin-left: 64px;
+  margin-top: 32px;
+}
+
+.Document__mainTitle{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.Document__title{
+  width: 35%;
+  font-size: 40px;
+}
+
+.Document__createrFile{
+  width: 1125px;
+  height: 552px;
+  background-color: #EFEFEF;
+  padding: 20px;
+}
+
+.Document__firstContent{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.Document__chooseFile{
+  display: flex;
+  align-items: center;
+}
+
+.Document__selector{
+  border: none;
+  width: 80px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: #F29400;
+  color: #F9F9F9;
+  margin-left: 20px;
+}
+
+.Document__search{
+  display: flex;
+  align-items: center;
+}
+
+.Document__selector:focus{
+  outline: none;
+}
+
+.Document__label{
+  margin-right: 20px;
+}
+
+.Document__input{
+  height: 24px;
+  border: none;
+}
+
+.Document__input:focus{
+  outline: none;
+}
+
+.Document__createText{
+  color: #F29400;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Document__parameters{
+  margin-top: 50px;
+}
+
+.Document__parameter{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+}

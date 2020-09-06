@@ -53,3 +53,22 @@ a{
   width: 20%;
   margin-bottom: 10px;
 }
+
+.Header__profile{
+  position: relative;
+  margin-top: 120px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #F29400;
+}
+
+.Header__picture{
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  left: 2px;
+  top: 2px;
+  object-fit: cover;
+  border-radius: 50%;
+}

@@ -4,6 +4,7 @@ import homeLogo from '../assets/home.svg'
 import calendarLogo from '../assets/calendar.svg'
 import documentLogo from '../assets/document.svg'
 import chatLogo from '../assets/chat.svg'
+import Profile from '../assets/profile.jpg'
 
 import {Link} from "react-router-dom";
 
@@ -40,6 +41,9 @@ export default class Header extends React.Component {
           </Link>
           </div>
         </ul>
+        <div className="Header__profile">
+          <img className="Header__picture" src={Profile} alt=""/>
+        </div>
       </div>
     );
   }

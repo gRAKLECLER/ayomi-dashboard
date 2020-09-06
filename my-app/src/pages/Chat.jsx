@@ -6,6 +6,7 @@ import BaseInviteCard from '../components/BaseInveCard'
 import Add from '../assets/add.svg'
 
 
+
 export default class Chat extends React.Component {
   render() {
     return (
