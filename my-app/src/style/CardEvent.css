@@ -47,3 +47,19 @@
 .CardEvent__subtitle{
   color: #3B79B1;
 }
+
+.CardEvent__pencil{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.pencil{
+  padding: 10px;
+}
+
+.CardEvent__pencil:hover{
+  background-color: blanchedalmond;
+  cursor: pointer;
+}

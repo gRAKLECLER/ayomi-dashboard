@@ -40,11 +40,16 @@
   width: 88%;
   grid-template-columns: auto auto auto auto auto auto auto;
   padding: 10px;
+  cursor: pointer;
 }
 
 .event{
   background-color: #F29400;
   color: #F9F9F9;
+}
+
+.event:hover{
+  background-color: #cf8001;
 }
 
 .numbers__number{

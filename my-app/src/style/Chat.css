@@ -1,0 +1,31 @@
+.Chat{
+  display: flex;
+}
+
+.Chat__left{
+  position: relative;
+}
+
+.Chat__Title{
+  position: absolute;
+  top: 50px;
+  left: 70px;
+}
+
+.Chat__mainTitle{
+  font-size: 40px;
+}
+
+.Chat__right{
+  height: 80vh;
+}
+
+.Chat__inviteTitle{
+  margin-top: 110px;
+  margin-left: -120px;
+}
+
+.Chat__inviteMaintitle{
+  font-size: 16px;
+  font-weight: 600;
+}

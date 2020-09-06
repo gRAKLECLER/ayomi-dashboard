@@ -26,7 +26,9 @@ class CardEvent extends Component {
             <h4  className="CardEvent__title">DESCRIPTIF SUPPLEMENTAIRES</h4>
             <h4 className="CardEvent__subtitle">Reunion avec l’equipe de acadomia</h4>
           </div>
-          <img className="pencil" src={pencil} alt=""/>
+          <div className="CardEvent__pencil">
+            <img className="pencil" src={pencil} alt=""/>
+          </div>
         </div>
       </div>
     )

@@ -1,0 +1,62 @@
+.BaseChat{
+  position: relative;
+  width: 50vw;
+  height: 70vh;
+  margin-top: 128px;
+  margin-left: 66px;
+}
+
+.BaseChat__sendMessage{
+  position: absolute;
+  width: 634px;
+  height: 538px;
+  bottom: 0px;
+}
+
+.BaseChat__message{
+  display: flex;
+  align-items: center;
+  background-color: #3B79B1;
+  color: #EFEFEF;
+  width: 35%;
+  height: 5%;
+  padding: 5px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.BaseChat__container{
+  background-color: #EFEFEF ;
+  width: 500px;
+  height: 500px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.BaseChat__input{
+  border: none;
+  width: 65%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+  background-color: #EFEFEF;
+}
+
+.BaseChat__input, .BaseChat__button:focus{
+  outline: none;
+}
+
+.BaseChat__button{
+  border: none;
+  height: 30px;
+  width: 66px;
+  border-radius: 10px;
+  background-color: #EFEFEF;
+}
+
+
+.BaseChat__button:hover{
+  background-color: #F29400;
+  color: #EFEFEF;
+  cursor: pointer;
+}
