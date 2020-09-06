@@ -34,6 +34,11 @@
   height: 90px;
 }
 
+a{
+  text-decoration: none;
+  color: #F9F9F9;
+}
+
 .Header__links:hover{
   background-color: #F29400;
 }

@@ -4,9 +4,10 @@ import eye from '../assets/eye.svg'
 import doc from '../assets/doc.svg'
 import profile from '../assets/profile.jpg'
 import more from '../assets/more.jpg'
+import chatIcon from '../assets/chatIcon.svg'
 
-import Header from './Header'
-import Up from './Upcoming'
+import Header from '../components/Header'
+import Upcoming from '../components/Upcoming'
 
 
 export default class Home extends React.Component {
@@ -57,10 +58,15 @@ export default class Home extends React.Component {
               </div>
               <img src={eye} alt=""/>
             </div>
-            <div>
-              <Up/>
+            <div className="Home__eventUp">
+              <Upcoming/>
+              <Upcoming/>
+              <Upcoming/>
             </div>
-            <img className="Home__more" src={more} alt=""/>
+            <div className="Home__LastDiv">
+              <img className="Home__more" src={more} alt=""/>
+              <img src={chatIcon} alt=""/>
+            </div>
           </div>
         </section>
       </div>
