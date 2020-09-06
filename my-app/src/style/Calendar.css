@@ -1,0 +1,17 @@
+.Calendar{
+  display: flex;
+  width: 95vw;
+}
+
+.Calendar__left{
+    margin-left: 59px;
+    margin-top: 38px;
+}
+
+.Calendar__Title{
+  width: 100%;
+}
+
+.Calendar__mainTitle{
+  font-size: 48px;
+}

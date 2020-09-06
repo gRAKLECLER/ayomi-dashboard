@@ -27,24 +27,24 @@ export default class Home extends React.Component {
           <div className="Home__document">
             <div className="Home__titleDoc">
               <h3 className="Home__H3">DOCUMENTS</h3>
-              <img src={eye} alt=""/>
+              <img src={eye} alt="oeil"/>
             </div>
             <div className="Home__docSection">
-              <img className="Home__files" src={doc} alt=""/>
-              <img className="Home__files" src={doc} alt=""/>
-              <img className="Home__files" src={doc} alt=""/>
-              <img className="Home__files" src={doc} alt=""/>
-              <img className="Home__files" src={doc} alt=""/>
-              <img className="Home__files" src={doc} alt=""/>
-              <img className="Home__files" src={doc} alt=""/>
-              <img className="Home__files" src={doc} alt=""/>
-              <img className="Home__files" src={doc} alt=""/>
+              <img className="Home__files" src={doc} alt="document"/>
+              <img className="Home__files" src={doc} alt="document"/>
+              <img className="Home__files" src={doc} alt="document"/>
+              <img className="Home__files" src={doc} alt="document"/>
+              <img className="Home__files" src={doc} alt="document"/>
+              <img className="Home__files" src={doc} alt="document"/>
+              <img className="Home__files" src={doc} alt="document"/>
+              <img className="Home__files" src={doc} alt="document"/>
+              <img className="Home__files" src={doc} alt="document"/>
             </div>
           </div>
         </section>
         <section className="Home__right">
           <div className="Home__profile">
-            <img className="Home__pic" src={profile} alt=""/>
+            <img className="Home__pic" src={profile} alt="profile"/>
             <div className="Home__profileText">
               <h3 className="Home__H3">STYLUS</h3>
               <p className="Home__text">LE CHANGEMENT DE L’air du digital dans vos maison</p>
@@ -56,7 +56,7 @@ export default class Home extends React.Component {
                 <h3 className="Home__H3">EVENEMENTS A VENIR</h3>
                 <span className="Home__numEvent">3</span>
               </div>
-              <img src={eye} alt=""/>
+              <img src={eye} alt="oeil"/>
             </div>
             <div className="Home__eventUp">
               <Upcoming/>
@@ -64,8 +64,8 @@ export default class Home extends React.Component {
               <Upcoming/>
             </div>
             <div className="Home__LastDiv">
-              <img className="Home__more" src={more} alt=""/>
-              <img src={chatIcon} alt=""/>
+              <img className="Home__more" src={more} alt="en savoir plus"/>
+              <img src={chatIcon} alt="text message"/>
             </div>
           </div>
         </section>
